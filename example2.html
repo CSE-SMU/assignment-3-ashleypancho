@@ -2,7 +2,6 @@
     <head>
         <title>Recreating a Wireframe with Bootstrap</title>
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
-        <!-- <link rel="stylesheet" type="text/css" href="" -->
     </head>
     <body>
         <!-- begin navbar -->
@@ -32,15 +31,19 @@
 
         <!-- Start of banner -->
         <!-- Fix this banner with call to action -->
-        <img src="http://static.tumblr.com/5299fa8670258cb7d51a5f9c47d42b75/07cdpnz/8g4n28u54/tumblr_static_outer-space-galaxies-black-hole-hd-wallpapers.jpg" class="img-fluid" style="width: 100%" alt="Responsive Image"/>
-        <div class="container-fluid">
+        <div class="jumbotron jumbotron-fluid" style="background:url('http://static.tumblr.com/5299fa8670258cb7d51a5f9c47d42b75/07cdpnz/8g4n28u54/tumblr_static_outer-space-galaxies-black-hole-hd-wallpapers.jpg'); width:100%">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 text-xs-right col-sm-offset-8">
+                        <div class="card">
+                            <div class="card-block">
+                                <h4 class="card-title">Space: The Final Frontier</h4>
+                                <p class="card-text">These are the voyages of the starship Enterprise. Its 5-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
+                                <a href="#" class="btn btn-primary">Beam me up, Scotty.</a>
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="card">
-            <div class="card-header">Featured</div>
-                <div class="card-block">
-                    <h4 class="card-title">Special title treatment</h4>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>
